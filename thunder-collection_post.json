@@ -1,0 +1,181 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "task",
+    "collectionId": "c1cacc8f-c72f-4de6-a0b4-a450591c8db1",
+    "dateExported": "2024-11-15T09:02:34.019Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "2a113903-7d05-41a4-931e-052b07175cd6",
+            "colId": "c1cacc8f-c72f-4de6-a0b4-a450591c8db1",
+            "containerId": "",
+            "name": "user signup",
+            "url": "localhost:8000/api/signup/",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-11-13T15:01:00.569Z",
+            "modified": "2024-11-15T08:26:02.148Z",
+            "headers": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "rithu"
+                    },
+                    {
+                        "name": "email",
+                        "value": "rithu@gmail.com"
+                    },
+                    {
+                        "name": "mobile",
+                        "value": "9999334422"
+                    },
+                    {
+                        "name": "username",
+                        "value": "rithu"
+                    },
+                    {
+                        "name": "password",
+                        "value": "rithu@123"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "8cd7a455-990c-4fae-a36d-fe3824faabee",
+            "colId": "c1cacc8f-c72f-4de6-a0b4-a450591c8db1",
+            "containerId": "",
+            "name": "user login",
+            "url": "localhost:8000/api/login/",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-11-13T15:05:22.748Z",
+            "modified": "2024-11-15T08:26:35.556Z",
+            "headers": [],
+            "auth": {
+                "type": "basic",
+                "basic": {
+                    "username": "rithu",
+                    "password": "rithu@123"
+                }
+            }
+        },
+        {
+            "_id": "d5c107cb-5826-436d-ae5d-d07862905acc",
+            "colId": "c1cacc8f-c72f-4de6-a0b4-a450591c8db1",
+            "containerId": "",
+            "name": "create post",
+            "url": "localhost:8000/api/posts/",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-11-13T20:36:05.887Z",
+            "modified": "2024-11-15T08:31:34.533Z",
+            "headers": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "title",
+                        "value": "tttttt4"
+                    },
+                    {
+                        "name": "description",
+                        "value": "ddddd4"
+                    },
+                    {
+                        "name": "tags",
+                        "value": "tag8,tag9"
+                    }
+                ]
+            },
+            "auth": {
+                "type": "basic",
+                "basic": {
+                    "username": "rithu",
+                    "password": "rithu@123"
+                }
+            }
+        },
+        {
+            "_id": "7ecde129-3d6a-4644-8cd8-a7edd4428e0d",
+            "colId": "c1cacc8f-c72f-4de6-a0b4-a450591c8db1",
+            "containerId": "",
+            "name": "publish post",
+            "url": "localhost:8000/api/posts/4/publish/",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-11-14T15:27:21.268Z",
+            "modified": "2024-11-15T08:32:17.301Z",
+            "headers": [],
+            "auth": {
+                "type": "basic",
+                "basic": {
+                    "username": "rithu",
+                    "password": "rithu@123"
+                }
+            }
+        },
+        {
+            "_id": "b7150cc9-7b77-429e-81a9-0d094ad1d0f1",
+            "colId": "c1cacc8f-c72f-4de6-a0b4-a450591c8db1",
+            "containerId": "",
+            "name": "unpublish post",
+            "url": "localhost:8000/api/posts/2/unpublish/",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-11-14T15:32:07.380Z",
+            "modified": "2024-11-15T08:30:29.732Z",
+            "headers": [],
+            "auth": {
+                "type": "basic",
+                "basic": {
+                    "username": "dona",
+                    "password": "dona@123"
+                }
+            }
+        },
+        {
+            "_id": "607378ac-9c5a-410d-b238-8e630db17b90",
+            "colId": "c1cacc8f-c72f-4de6-a0b4-a450591c8db1",
+            "containerId": "",
+            "name": "list posts",
+            "url": "localhost:8000/api/posts/list/",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2024-11-14T15:32:31.690Z",
+            "modified": "2024-11-15T08:28:09.656Z",
+            "headers": [],
+            "auth": {
+                "type": "basic",
+                "basic": {
+                    "username": "rithu",
+                    "password": "rithu@123"
+                }
+            }
+        },
+        {
+            "_id": "fa395583-e762-4d82-9ee4-824d12118b90",
+            "colId": "c1cacc8f-c72f-4de6-a0b4-a450591c8db1",
+            "containerId": "",
+            "name": "like/unlike posts",
+            "url": "localhost:8000/api/posts/2/like/",
+            "method": "POST",
+            "sortNum": 80000,
+            "created": "2024-11-14T15:36:26.249Z",
+            "modified": "2024-11-15T08:28:57.061Z",
+            "headers": [],
+            "auth": {
+                "type": "basic",
+                "basic": {
+                    "username": "rithu",
+                    "password": "rithu@123"
+                }
+            }
+        }
+    ],
+    "ref": "J8jzbqhRutmwtEQxjtp4-Y3zdIPF4A3fjt9M27562BFpR_kC27SEd2If1EsgeGkMc-pVuTu3S2LK2lSf6qlLnw"
+}
